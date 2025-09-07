@@ -6,10 +6,10 @@
 </head>
 <body>
   <!-- Divs de colores con estilos en línea y IDs únicos -->
-  <div id="divAzul" style="width:200px; height:200px; background-color:blue; display:inline-block; margin:10px;"></div>
-  <div id="divRojo" style="width:200px; height:200px; background-color:red; display:inline-block; margin:10px;"></div>
-  <div id="divVerde" style="width:200px; height:200px; background-color:green; display:inline-block; margin:10px;"></div>
-  <div id="divAmarillo" style="width:200px; height:200px; background-color:yellow; display:inline-block; margin:10px;"></div>
+  <div id="Azul" style="width:200px; height:200px; background-color:blue; display:inline-block; margin:10px;"></div>
+  <div id="Rojo" style="width:200px; height:200px; background-color:red; display:inline-block; margin:10px;"></div>
+  <div id="Verde" style="width:200px; height:200px; background-color:green; display:inline-block; margin:10px;"></div>
+  <div id="Amarillo" style="width:200px; height:200px; background-color:yellow; display:inline-block; margin:10px;"></div>
 
   <!-- Div para cambiar color con teclado -->
   <div id="key" style="width:200px; height:200px; background-color:white; border:2px solid black; margin:20px 0;"></div>
@@ -19,7 +19,7 @@
 
   <script>
     // ✅ Evento click para cambiar color a negro
-    const ids = ["divAzul", "divRojo", "divVerde", "divAmarillo"];
+    const ids = ["Azul", "Rojo", "Verde", "Amarillo"];
     ids.forEach(id => {
       const div = document.getElementById(id);
       div.addEventListener("click", () => {
